@@ -1,0 +1,20 @@
+
+Los template strings (o template literals) son una característica introducida en ECMAScript 6 (ES6) en JavaScript que permiten crear cadenas de texto de manera más flexible en comparación con las comillas simples o dobles. Algunas características importantes de los template strings son las siguientes:
+
+Características de los template strings:
+1. Interpolación de expresiones: Permiten incrustar variables o expresiones dentro de una cadena de texto usando la sintaxis ${}. Esto hace que la concatenación de cadenas y variables sea mucho más sencilla.
+   Ejemplo:
+   const name = 'Carlos';
+   console.log(`Hola, ${name}!`); // Salida: Hola, Carlos!
+
+2. Multilínea: A diferencia de las comillas simples o dobles, los template strings permiten crear cadenas de varias líneas sin necesidad de caracteres especiales como \n para saltos de línea.
+   Ejemplo:
+   const text = `Esta es una cadena
+   que ocupa
+   varias líneas.`;
+   console.log(text);
+
+3. Uso de comillas dentro de las cadenas: Con los template strings, puedes usar comillas simples y dobles dentro de la cadena sin necesidad de escapar esos caracteres.
+   Ejemplo:
+   const phrase = `Ella dijo: "Hola" y luego agregó: 'Adiós'`;
+   console.log(phrase);

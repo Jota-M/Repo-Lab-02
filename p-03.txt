@@ -1,0 +1,10 @@
+Características importantes de TypeScript:
+Tipado estático: Permite definir tipos para variables, funciones, y parámetros, lo que ayuda a detectar errores antes de la ejecución.
+Tipos personalizados: Puedes crear interfaces, tipos y enums para estructurar mejor el código.
+Orientación a objetos avanzada: Soporte completo para clases, herencia y modificadores de acceso (public, private, protected).
+Compilación a JavaScript: TypeScript se transpila a JavaScript estándar, compatible con cualquier navegador.
+Mejores herramientas de desarrollo: Ofrece mejor autocompletado y verificación de errores gracias a su sistema de tipos.
+Diferencias con JavaScript:
+JavaScript es dinámico y no tiene tipado estático.
+TypeScript detecta errores en tiempo de compilación, mientras que JavaScript lo hace en tiempo de ejecución.
+TypeScript es más adecuado para proyectos grandes y escalables debido a su estructura más robusta.
